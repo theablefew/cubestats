@@ -28,3 +28,12 @@ stats.fetch(function(error,data) {
   console.log(data);
 });
 ```
+
+#### API 
+
+`.event(cube_event)`
+`.eq(field, value)`
+`.lt(field, int)`
+`.gt(field, int)`
+`.ne(field, int)`
+`.re(field, regExString)`
